@@ -11,6 +11,8 @@ body {
 .main-header {
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
     background: #2ddf5c;
     padding: 8px 16px;
     z-index: 1;
@@ -26,6 +28,11 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
+    height: 22px;
+}
+
+.main-header__brand img {
+    height: 22px;
 }
 
 .main-nav {
