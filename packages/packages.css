@@ -78,9 +78,8 @@ main {
     background: white;
     border: 1px solid #0e4f1f;
     padding: 1rem;
-    font-size: 1.25rem;
-    color: #0e4f1f;
-    font-family: "AnonymousPro", sans-serif;
+    font: 700 1.25rem "AnonymousPro", sans-serif
+    /*font-style font-variant font-weight font-size/line-hight font-family*/
 }
 
 .clearfix {
